@@ -6,7 +6,6 @@ import Grain from "../../assets/grain.png";
 import NavBar from "../../components/navbar/NavBar";
 
 export default function Genre() {
-  console.log(Genres);
   return (
     <div className="container-genre">
       <Background />
