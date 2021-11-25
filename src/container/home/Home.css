@@ -57,6 +57,7 @@
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  margin-top: 15%;
 }
 
 .btn-artiste{
@@ -66,4 +67,5 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   text-decoration: underline;
+  padding-top: 5%;
 }
