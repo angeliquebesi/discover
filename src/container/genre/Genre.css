@@ -1,3 +1,8 @@
+.container-genre{
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
 .categorie{
   border-radius:50px;
   height: 35vw;
@@ -14,6 +19,7 @@
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .rap{
@@ -28,5 +34,30 @@
 
 .metal{
   background-image: url('../../assets/metal.jpg');
+  margin-bottom: 10%;
+}
+
+.rock{
+  background-image: url('../../assets/rock.jpg');
+  margin-bottom: 10%;
+}
+
+.jazz{
+  background-image: url('../../assets/jazz.jpg');
+  margin-bottom: 10%;
+}
+
+.reggae{
+  background-image: url('../../assets/reggae.jpg');
+  margin-bottom: 10%;
+}
+
+.classic{
+  background-image: url('../../assets/classic.jpg');
+  margin-bottom: 10%;
+}
+
+.electro{
+  background-image: url('../../assets/electro.jpg');
   margin-bottom: 10%;
 }
