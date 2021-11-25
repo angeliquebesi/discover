@@ -3,3 +3,7 @@ h2, h4{
   color: #ffffff;
   padding-left: 1rem;
 }
+.infoContainer {
+  width: 75vw;
+  align-self: center;
+}

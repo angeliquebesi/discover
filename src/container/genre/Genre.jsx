@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import NavBar from "../../components/navbar/NavBar";
 import Genres from "./data"; // importer le fichier data de Coralie à la place
 import "./Genre.css";
 import Background from "../../components/background/Background";
