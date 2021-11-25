@@ -1,9 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
-import Home from "./container/home/Home";
 import NavBar from "./components/navbar/NavBar";
-import Gestionnaire from "./container/gestionnaire/Gestionnaire";
+import Home from "./container/home/Home";
+import Genre from "./container/genre/Genre";
+import Musique from "./container/musique/Musique";
+import Contact from "./container/contact/Contact";
+import "./App.css";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/gestionnaire" element={<Gestionnaire />} />
+        <Route exact path="/genre" element={<Genre />} />
+        <Route exact path="/genre/musique" element={<Musique />} />
+        <Route exact path="/artiste" element={<Contact />} />
       </Routes>
     </div>
   );
