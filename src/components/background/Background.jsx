@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./background.css";
 
-const Background = () => {
+export default function Background() {
   return (
-    <div className="container-background"> 
-      <div className="background-item-1"></div>
-      <div className="background-item-1"></div>
+    <div className="container-background">
+      <div className="container-flou" />
+      <div className="background-item-1" />
+      <div className="background-item-2" />
     </div>
-  )
+  );
 }
-
-export default Background
