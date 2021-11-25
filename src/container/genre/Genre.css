@@ -1,3 +1,8 @@
+.container-genre{
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
 .categorie{
   border-radius:50px;
   height: 35vw;

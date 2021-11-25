@@ -22,10 +22,21 @@
   top: 0;
   left: 20%;
   z-index: 1;
-
-
+  animation-name: background1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
 }
-
+@keyframes background1 {
+  0%   { left:20%; top:0px;}
+  50%  { left:10%; top:60%;}
+  100% { left:20%; top:0%;}
+}
+@keyframes background2 {
+  0%   { left:0%; top:40%;}
+  50%  { left:20%; top:10%;}
+  100% { left:0%; top:40%;}
+}
 .background-item-2{
   width: 400px;
   height: 500px;
@@ -35,6 +46,10 @@
   top: 40%;
   left: 0;
   z-index: 1;
+  animation-name: background2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function:ease-in-out;
 }
 
 .container-flou{

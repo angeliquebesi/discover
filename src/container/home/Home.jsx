@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 import Background from "../../components/background/Background";
 import Grain from "../../assets/grain.png";
 import "./Home.css";
+import NavBar from "../../components/navbar/NavBar";
 
 export default function Home() {
   return (
     <div className="container-Home">
       <Background />
+      <NavBar />
+
       <h3>
         <span className="debut-pres">Bienvenue sur discover, ici</span> «on ne
         vend pas la musique on la partage.»
