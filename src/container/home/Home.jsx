@@ -9,7 +9,8 @@ export default function Home() {
     <div className="container-Home">
       <Background />
       <h3>
-        Bienvenue sur discover, ici «on ne vend pas la musique on la partage.»
+        <span className="debut-pres">Bienvenue sur discover, ici</span> «on ne
+        vend pas la musique on la partage.»
       </h3>
       <div>
         <h4>-Leonard Bernstein</h4>
