@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-// import NavBar from "./components/navbar/NavBar";
 import Home from "./container/home/Home";
 import Genre from "./container/genre/Genre";
 import Contact from "./container/contact/Contact";

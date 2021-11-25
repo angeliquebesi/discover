@@ -10,7 +10,7 @@ function MusicInformation() {
       <h4>Titre</h4>
       <div>
         <AudioPlayer
-          src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+          src="https://soundcloud.com/flaiy-yt/sch-tempete.mp3"
           style={{
             backgroundColor: "transparent",
           }}
