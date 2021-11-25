@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/gestionnaire" element={<Gestionnaire />} />
       </Routes>
-
     </div>
   );
 }
