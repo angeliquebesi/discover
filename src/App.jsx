@@ -1,5 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./container/home/Home";
+import NavBar from "./components/navbar/NavBar";
+import Gestionnaire from "./container/gestionnaire/Gestionnaire";
 
 function App() {
   return (
@@ -9,7 +13,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/gestionnaire" element={<Gestionnaire />} />
       </Routes>
-
     </div>
   );
 }
