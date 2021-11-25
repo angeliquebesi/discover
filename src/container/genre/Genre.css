@@ -30,3 +30,28 @@
   background-image: url('../../assets/metal.jpg');
   margin-bottom: 10%;
 }
+
+.rock{
+  background-image: url('../../assets/rock.jpg');
+  margin-bottom: 10%;
+}
+
+.jazz{
+  background-image: url('../../assets/jazz.jpg');
+  margin-bottom: 10%;
+}
+
+.reggae{
+  background-image: url('../../assets/reggae.jpg');
+  margin-bottom: 10%;
+}
+
+.classic{
+  background-image: url('../../assets/classic.jpg');
+  margin-bottom: 10%;
+}
+
+.electro{
+  background-image: url('../../assets/electro.jpg');
+  margin-bottom: 10%;
+}
