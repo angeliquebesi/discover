@@ -1,9 +1,10 @@
-/* eslint-disable arrow-body-style */
 import React from "react";
+import { useParams } from "react-router-dom";
 import Cube from "react-cube-navigation";
 import NavBar from "../navbar/NavBar";
-import "./Cube.css";
 import MusicInformation from "./MusicInformation";
+import { artists } from "../../data/data";
+import "./Cube.css";
 
 const images = [
   "https://images.unsplash.com/photo-1565371557106-c2abcc6fb36a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
@@ -18,6 +19,9 @@ const images = [
 
 function SwipCube() {
   const [index, setIndex] = React.useState(0);
+  const { id } = useParams();
+
+  const artistList = artists.filter((artist) => artist.id === id);
 
   return (
     <div className="cube">
@@ -37,23 +41,26 @@ function SwipCube() {
           height={window.innerHeight - 25}
           lockScrolling
           hasNext={(i) => i < images.length - 1}
-          renderItem={(i) => {
-            return (
-              <div
-                style={{
-                  backgroundImage: `url(${images[i]})`,
-                  display: "flex",
-                  flexDirection: "column-reverse",
-                  backgroundSize: "cover",
-                  flex: 1,
-                  borderRadius: "1rem",
-                  paddingBottom: "3rem",
-                }}
-              >
-                <MusicInformation />
-              </div>
-            );
-          }}
+          renderItem={(i) => (
+            <div
+              style={{
+                backgroundImage: `url(${images[i]})`,
+                display: "flex",
+                flexDirection: "column-reverse",
+                backgroundSize: "cover",
+                flex: 1,
+                borderRadius: "1rem",
+                paddingBottom: "3rem",
+              }}
+            >
+              {artistList.map((artist) => (
+                <MusicInformation
+                  name={artist.artist}
+                  titreUrl={artist.sound}
+                />
+              ))}
+            </div>
+          )}
         />
       </div>
     </div>

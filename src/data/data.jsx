@@ -1,4 +1,4 @@
-const genres = [
+export const genres = [
   { id: 0, name: "rap" },
   { id: 1, name: "pop" },
   { id: 2, name: "metal" },
@@ -9,7 +9,7 @@ const genres = [
   { id: 7, name: "electro" },
 ];
 
-const artists = [
+export const artists = [
   {
     id: 0,
     artist: "ExcluRapEnglish",

@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route exact path="/genre" element={<Genre />} />
-        <Route exact path="/genre/:id" element={<SwipCube />} />
+        <Route path="/genre/:id" element={<SwipCube />} />
         <Route exact path="/artiste" element={<Contact />} />
       </Routes>
     </div>
