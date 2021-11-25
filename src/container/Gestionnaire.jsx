@@ -6,8 +6,4 @@ export default function Gestionnaire() {
       Gestionnaire
     </div>
   )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f156485b2559b1ba53a7348390574ce51fa1db16
