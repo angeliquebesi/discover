@@ -9,7 +9,6 @@ import "./Cube.css";
 const SwipCube = () => {
   const [index, setIndex] = useState(0);
   const [artistList, setArtistList] = useState([]);
-  const [imageList, setImageList] = useState([]);
   const { id } = useParams();
 
   useEffect(() => {
@@ -17,8 +16,6 @@ const SwipCube = () => {
       (artist) => artist.id === parseInt(id, 10)
     );
     setArtistList(myFilterList);
-    const mappingImageList = artistList.map((picture) => picture.image);
-    setImageList(mappingImageList);
   }, []);
 
   return (
@@ -30,36 +27,40 @@ const SwipCube = () => {
           justifyContent: "center",
           alignItems: "center",
           width: "100vw",
+          flexDirection: "column",
         }}
       >
-        <Cube
-          index={index}
-          onChange={(i) => setIndex(i)}
-          width={window.innerWidth - 25}
-          height={window.innerHeight - 25}
-          lockScrolling
-          hasNext={(i) => i < artistList.length - 1}
-          renderItem={(i) => (
-            <div
-              style={{
-                backgroundImage: `url(${imageList[i]})`,
-                display: "flex",
-                flexDirection: "column-reverse",
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                flex: 1,
-                borderRadius: "1rem",
-                paddingBottom: "3rem",
-              }}
-            >
-              {artistList.length > 0 ? (
-                <MusicInformation artist={artistList[index]} />
-              ) : (
-                ""
-              )}
-            </div>
-          )}
-        />
+        {artistList.length > 0 ? (
+          <Cube
+            index={index}
+            onChange={(i) => setIndex(i)}
+            width={window.innerWidth - 25}
+            height={window.innerHeight - 25}
+            lockScrolling
+            hasNext={(i) => i < artistList.length - 1}
+            renderItem={() => (
+              <div
+                style={{
+                  backgroundImage: `url("${artistList[index].image}")`,
+                  display: "flex",
+                  flexDirection: "column-reverse",
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  flex: 1,
+                  borderRadius: "1rem",
+                  paddingBottom: "3rem",
+                }}
+              />
+            )}
+          />
+        ) : (
+          ""
+        )}
+        {artistList.length > 0 ? (
+          <MusicInformation artist={artistList[index]} />
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

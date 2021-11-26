@@ -1,4 +1,4 @@
-h2, h4{
+.infoContainer h2, h4{
   text-align: left;
   color:rgba(88, 87, 87, 0.726);
   padding-left: 1rem;
@@ -6,4 +6,6 @@ h2, h4{
 .infoContainer {
   width: 75vw;
   align-self: center;
+  position: absolute;
+  margin-top: 650px;
 }
