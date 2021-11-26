@@ -1,15 +1,24 @@
-const genres = [
-  { id: 0, name: "rap" },
-  { id: 1, name: "pop" },
-  { id: 2, name: "metal" },
-  { id: 3, name: "rock" },
-  { id: 4, name: "jazz" },
-  { id: 5, name: "reggae" },
-  { id: 6, name: "classic" },
-  { id: 7, name: "electro" },
+import rap from "../assets/rap.jpg";
+import pop from "../assets/pop.jpg";
+import metal from "../assets/metal.jpg";
+import rock from "../assets/rock.jpg";
+import jazz from "../assets/jazz.jpg";
+import reggae from "../assets/reggae.jpg";
+import classic from "../assets/classic.jpg";
+import electro from "../assets/electro.jpg";
+
+export const genres = [
+  { id: 0, name: "rap", url: rap },
+  { id: 1, name: "pop", url: pop },
+  { id: 2, name: "metal", url: metal },
+  { id: 3, name: "rock", url: rock },
+  { id: 4, name: "jazz", url: jazz },
+  { id: 5, name: "reggae", url: reggae },
+  { id: 6, name: "classic", url: classic },
+  { id: 7, name: "electro", url: electro },
 ];
 
-const artists = [
+export const artists = [
   {
     id: 0,
     artist: "ExcluRapEnglish",
