@@ -32,37 +32,34 @@ const SwipCube = () => {
           width: "100vw",
         }}
       >
-        {artistList.length > 0 ? (
-          <Cube
-            index={index}
-            onChange={(i) => setIndex(i)}
-            width={window.innerWidth - 25}
-            height={window.innerHeight - 25}
-            lockScrolling
-            hasNext={(i) => i < artistList.length - 1}
-            renderItem={(i) => (
-              <div
-                style={{
-                  backgroundImage: `url(${imageList[i]})`,
-                  display: "flex",
-                  flexDirection: "column-reverse",
-                  backgroundSize: "cover",
-                  flex: 1,
-                  borderRadius: "1rem",
-                  paddingBottom: "3rem",
-                }}
-              >
-                {artistList.length > 0 ? (
-                  <MusicInformation artist={artistList[index]} />
-                ) : (
-                  ""
-                )}
-              </div>
-            )}
-          />
-        ) : (
-          ""
-        )}
+        <Cube
+          index={index}
+          onChange={(i) => setIndex(i)}
+          width={window.innerWidth - 25}
+          height={window.innerHeight - 25}
+          lockScrolling
+          hasNext={(i) => i < artistList.length - 1}
+          renderItem={(i) => (
+            <div
+              style={{
+                backgroundImage: `url(${imageList[i]})`,
+                display: "flex",
+                flexDirection: "column-reverse",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                flex: 1,
+                borderRadius: "1rem",
+                paddingBottom: "3rem",
+              }}
+            >
+              {artistList.length > 0 ? (
+                <MusicInformation artist={artistList[index]} />
+              ) : (
+                ""
+              )}
+            </div>
+          )}
+        />
       </div>
     </div>
   );
