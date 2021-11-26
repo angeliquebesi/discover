@@ -6,11 +6,11 @@ import "./MusicInformation.css";
 function MusicInformation({ name, titreUrl }) {
   return (
     <div className="infoContainer">
-      <h2>{name.artist}</h2>
+      <h2>{name}</h2>
       <h4>Titre</h4>
       <div>
         <AudioPlayer
-          src={titreUrl.sound}
+          src={titreUrl}
           style={{
             backgroundColor: "transparent",
           }}

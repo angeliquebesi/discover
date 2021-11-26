@@ -1,17 +1,17 @@
 export const genres = [
-  { id: 0, name: "rap" },
-  { id: 1, name: "pop" },
-  { id: 2, name: "metal" },
-  { id: 3, name: "rock" },
-  { id: 4, name: "jazz" },
-  { id: 5, name: "reggae" },
-  { id: 6, name: "classic" },
-  { id: 7, name: "electro" },
+  { id: 1, name: "rap" },
+  { id: 2, name: "pop" },
+  { id: 3, name: "metal" },
+  { id: 4, name: "rock" },
+  { id: 5, name: "jazz" },
+  { id: 6, name: "reggae" },
+  { id: 7, name: "classic" },
+  { id: 8, name: "electro" },
 ];
 
 export const artists = [
   {
-    id: 0,
+    id: 1,
     artist: "ExcluRapEnglish",
     nb_fan: 9,
     url: "https://soundcloud.com/flaiy-yt",
@@ -20,7 +20,7 @@ export const artists = [
   },
 
   {
-    id: 0,
+    id: 1,
     artist: "Daymoliton",
     nb_fan: 72,
     url: "https://soundcloud.com/daymolitonfr",
@@ -30,7 +30,7 @@ export const artists = [
   },
 
   {
-    id: 0,
+    id: 1,
     artist: "GN HIT",
     nb_fan: 54,
     url: "https://soundcloud.com/francois-dupont-415360751",
@@ -39,7 +39,7 @@ export const artists = [
   },
 
   {
-    id: 0,
+    id: 1,
     artist: "BOXXO_RAP",
     nb_fan: 99,
     url: "https://soundcloud.com/dd45rap",
@@ -48,7 +48,7 @@ export const artists = [
   },
 
   {
-    id: 0,
+    id: 1,
     artist: "Blendrap",
     nb_fan: 319,
     url: "https://soundcloud.com/blendrap",
@@ -58,7 +58,7 @@ export const artists = [
   },
 
   {
-    id: 1,
+    id: 2,
     artist: "Pineapple",
     nb_fan: 640,
     url: "https://soundcloud.com/pineapplek7",
@@ -67,7 +67,7 @@ export const artists = [
   },
 
   {
-    id: 1,
+    id: 2,
     artist: "Gilles & Maurice",
     nb_fan: 248,
     url: "https://soundcloud.com/gillesetmaurice",
@@ -76,7 +76,7 @@ export const artists = [
   },
 
   {
-    id: 1,
+    id: 2,
     artist: "WARD",
     nb_fan: 10,
     url: "https://soundcloud.com/wardofficiel",
@@ -85,7 +85,7 @@ export const artists = [
     image: "https://i1.sndcdn.com/avatars-dYyB1hHRmqsT015I-lp6sFA-t500x500.jpg",
   },
   {
-    id: 1,
+    id: 2,
     artist: "Pop'Ash",
     nb_fan: 33,
     url: "https://soundcloud.com/popash",
@@ -94,7 +94,7 @@ export const artists = [
   },
 
   {
-    id: 1,
+    id: 2,
     artist: "Pop In Djerba",
     nb_fan: 47,
     url: "https://soundcloud.com/pop-in-djerba",
@@ -103,7 +103,7 @@ export const artists = [
   },
 
   {
-    id: 2,
+    id: 3,
     artist: "Arkan OrientalMetal",
     nb_fan: 119,
     url: "https://soundcloud.com/arkan-orientalmetal",
@@ -112,7 +112,7 @@ export const artists = [
   },
 
   {
-    id: 2,
+    id: 3,
     artist: "Vivien Lalu",
     nb_fan: 121,
     url: "https://soundcloud.com/vivienlalu",
@@ -121,7 +121,7 @@ export const artists = [
   },
 
   {
-    id: 2,
+    id: 3,
     artist: "Metal Ninja",
     nb_fan: 148,
     url: "https://soundcloud.com/metal-ninja",
@@ -130,7 +130,7 @@ export const artists = [
   },
 
   {
-    id: 2,
+    id: 3,
     artist: "Gargantua Metal",
     nb_fan: 38,
     url: "https://soundcloud.com/gargantuametal",
@@ -139,7 +139,7 @@ export const artists = [
   },
 
   {
-    id: 2,
+    id: 3,
     artist: "NeoMetal",
     nb_fan: 45,
     url: "https://soundcloud.com/neometal-1",
@@ -148,7 +148,7 @@ export const artists = [
   },
 
   {
-    id: 3,
+    id: 4,
     artist: "Music Events Agency",
     nb_fan: 83,
     url: "https://soundcloud.com/musiceventsagency",
@@ -157,7 +157,7 @@ export const artists = [
   },
 
   {
-    id: 3,
+    id: 4,
     artist: "RockVibes'studio",
     nb_fan: 3,
     url: "https://soundcloud.com/user-881870153-907578065",
@@ -167,7 +167,7 @@ export const artists = [
   },
 
   {
-    id: 3,
+    id: 4,
     artist: "Zoran Rock",
     nb_fan: 9,
     url: "https://soundcloud.com/user-847846969",
@@ -176,7 +176,7 @@ export const artists = [
   },
 
   {
-    id: 3,
+    id: 4,
     artist: "BlackRain Rock",
     nb_fan: 9,
     url: "https://soundcloud.com/blackrain-rock",
@@ -186,7 +186,7 @@ export const artists = [
   },
 
   {
-    id: 3,
+    id: 5,
     artist: "Nilo Griffin",
     nb_fan: 41,
     url: "https://soundcloud.com/nilogriffin",
@@ -195,7 +195,7 @@ export const artists = [
   },
 
   {
-    id: 4,
+    id: 5,
     artist: "Jazz&People",
     nb_fan: 436,
     url: "https://soundcloud.com/jazz-people",
@@ -204,7 +204,7 @@ export const artists = [
   },
 
   {
-    id: 4,
+    id: 5,
     artist: "ColoreJazz",
     nb_fan: 43,
     url: "https://soundcloud.com/colorejazz",
@@ -213,7 +213,7 @@ export const artists = [
   },
 
   {
-    id: 4,
+    id: 5,
     artist: "Sayag Jazz Machine",
     nb_fan: 421,
     url: "https://soundcloud.com/sayag-jazz-machine",
@@ -222,7 +222,7 @@ export const artists = [
   },
 
   {
-    id: 4,
+    id: 5,
     artist: "L'épicerie du jazz",
     nb_fan: 58,
     url: "https://soundcloud.com/epiceriedujazz",
@@ -231,7 +231,7 @@ export const artists = [
   },
 
   {
-    id: 4,
+    id: 5,
     artist: "TSF JAZZ",
     nb_fan: 90,
     url: "https://soundcloud.com/tsf-jazz-1",
@@ -241,7 +241,7 @@ export const artists = [
   },
 
   {
-    id: 5,
+    id: 6,
     artist: "Vibzone.fr",
     nb_fan: 352,
     url: "https://soundcloud.com/vibzone",
@@ -250,7 +250,7 @@ export const artists = [
   },
 
   {
-    id: 5,
+    id: 6,
     artist: "Le sel",
     nb_fan: 41,
     url: "https://soundcloud.com/lesel",
@@ -259,7 +259,7 @@ export const artists = [
   },
 
   {
-    id: 5,
+    id: 6,
     artist: "SUNDYATA",
     nb_fan: 63,
     url: "https://soundcloud.com/sundyata",
@@ -268,7 +268,7 @@ export const artists = [
   },
 
   {
-    id: 5,
+    id: 6,
     artist: "Reggae Acoustic Club",
     nb_fan: 321,
     url: "https://soundcloud.com/reggae-acoustic-club",
@@ -278,7 +278,7 @@ export const artists = [
   },
 
   {
-    id: 5,
+    id: 6,
     artist: "Reggae Champion's League",
     nb_fan: 27,
     url: "https://soundcloud.com/reggaechampionsleague",
@@ -288,7 +288,7 @@ export const artists = [
   },
 
   {
-    id: 6,
+    id: 7,
     artist: "Classic as Fuck",
     nb_fan: 743,
     url: "https://soundcloud.com/classicasfuck",
@@ -298,7 +298,7 @@ export const artists = [
   },
 
   {
-    id: 6,
+    id: 7,
     artist: "Classic State (aka Steek)",
     nb_fan: 28,
     url: "https://soundcloud.com/classic-state",
@@ -307,7 +307,7 @@ export const artists = [
   },
 
   {
-    id: 6,
+    id: 7,
     artist: "Flashback",
     nb_fan: 120,
     url: "https://soundcloud.com/flashbackpodcast",
@@ -316,7 +316,7 @@ export const artists = [
   },
 
   {
-    id: 6,
+    id: 7,
     artist: "CHREESTYLE",
     nb_fan: 130,
     url: "https://soundcloud.com/chreestyle",
@@ -325,7 +325,7 @@ export const artists = [
   },
 
   {
-    id: 6,
+    id: 7,
     artist: "The Soulfingers",
     nb_fan: 567,
     url: "https://soundcloud.com/thesoulfingers",
@@ -335,7 +335,7 @@ export const artists = [
   },
 
   {
-    id: 7,
+    id: 8,
     artist: "THE ELECTRONIC CONSPIRACY",
     nb_fan: 776,
     url: "https://soundcloud.com/theelectronicconspiracy",
@@ -344,7 +344,7 @@ export const artists = [
   },
 
   {
-    id: 7,
+    id: 8,
     artist: "Arnaud Millet",
     nb_fan: 847,
     url: "https://soundcloud.com/arnaudmillet",
@@ -354,7 +354,7 @@ export const artists = [
   },
 
   {
-    id: 7,
+    id: 8,
     artist: "Nella.S",
     nb_fan: 661,
     url: "https://soundcloud.com/nylsie",
@@ -364,7 +364,7 @@ export const artists = [
   },
 
   {
-    id: 7,
+    id: 8,
     artist: "FENOFLOW",
     nb_fan: 171,
     url: "https://soundcloud.com/fenoflow",
@@ -374,7 +374,7 @@ export const artists = [
   },
 
   {
-    id: 7,
+    id: 8,
     artist: "Electro Clash 2000",
     nb_fan: 101,
     url: "https://soundcloud.com/user9433919",
