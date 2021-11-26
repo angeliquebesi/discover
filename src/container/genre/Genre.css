@@ -15,7 +15,10 @@
   gap : 100px;
 }
 
-.inner { position: relative; height: auto; }
+.inner { 
+  position: relative; 
+  height: auto;
+ }
 
 .categorie{
   height: 35vw;

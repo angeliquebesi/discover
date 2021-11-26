@@ -54,12 +54,7 @@ export default function Contact() {
             }
           />
         </label>
-        <button
-          type="submit"
-          onClick={() => alert("Ta chanson a bien été envoyé")}
-        >
-          Envoyer
-        </button>
+        <button type="submit">Envoyer</button>
       </form>
     </div>
   );

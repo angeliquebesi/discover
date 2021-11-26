@@ -6,6 +6,19 @@ import jazz from "../assets/jazz.jpg";
 import reggae from "../assets/reggae.jpg";
 import classic from "../assets/classic.jpg";
 import electro from "../assets/electro.jpg";
+import ExcluRapEnglish from "../assets/artists/ExcluRapEnglish.jpg";
+import Daymoliton from "../assets/artists/Daymoliton.jpg";
+import GNHIT from "../assets/artists/GNHIT.jpg";
+import BOXXO_RAP from "../assets/artists/BOXXO_RAP.jpg";
+import Blendrap from "../assets/artists/Blendrap.jpg";
+import Pineapple from "../assets/artists/Pineapple.jpg";
+import GillesMaurice from "../assets/artists/GillesMaurice.jpg";
+import Ward from "../assets/artists/Ward.jpg";
+import PopInDjerba from "../assets/artists/PopInDjerba.jpg";
+import VivienLalu from "../assets/artists/VivienLalu.jpg";
+import MetalNinja from "../assets/artists/MetalNinja.jpg";
+import GargantuaMetal from "../assets/artists/GargantuaMetal.jpg";
+import NeoMetal from "../assets/artists/NeoMetal.jpg";
 
 export const genres = [
   { id: 0, name: "rap", url: rap },
@@ -26,7 +39,7 @@ export const artists = [
     url: "https://soundcloud.com/flaiy-yt",
     sound:
       "https://dl11.debrid.link/dl/1enc9e1cbe467bd24aa941f06d3b6933e945bc10039f/SCH+-+Temp%C3%AAte.mp3",
-    image: "https://i1.sndcdn.com/avatars-LuEYCQD5BJTqzdAT-zgYLuQ-t500x500.jpg",
+    image: ExcluRapEnglish,
   },
 
   {
@@ -36,7 +49,7 @@ export const artists = [
     url: "https://soundcloud.com/daymolitonfr",
     sound:
       "https://dl11.debrid.link/dl/1encab4fdabfa88d4431736033c1b6278e9511ef16fa/Douma+Kalash+Ft.+Ninho+-+Igo+%2310+%28Prod+By+Binks+Beatz%29.mp3",
-    image: "https://i1.sndcdn.com/avatars-000205012877-uev0v3-t500x500.jpg",
+    image: Daymoliton,
   },
 
   {
@@ -46,7 +59,7 @@ export const artists = [
     url: "https://soundcloud.com/francois-dupont-415360751",
     sound:
       "https://dl11.debrid.link/dl/1enc8580be3082c645afc89a3dc63be7e9b151da9a89/Dino+XIII+-+Tonight.mp3",
-    image: "https://i1.sndcdn.com/avatars-nDZXFNyZun2qAmLZ-BqQbGA-t500x500.jpg",
+    image: GNHIT,
   },
 
   {
@@ -56,7 +69,7 @@ export const artists = [
     url: "https://soundcloud.com/dd45rap",
     sound:
       "https://dl11.debrid.link/dl/1enc4d1b945824ac0e75302d7722bc8944782c568d5b/%5BINSTRU%5D+D%21sto+-+FlamProd+%28125+BPM%29+Josman+Type+Beat.mp3",
-    image: "https://i1.sndcdn.com/avatars-000221743354-a3789n-t500x500.jpg",
+    image: BOXXO_RAP,
   },
 
   {
@@ -66,7 +79,7 @@ export const artists = [
     url: "https://soundcloud.com/blendrap",
     sound:
       "https://dl11.debrid.link/dl/1enc133a41df8e79e7d325cc6cee483cfe60f23d7c45/Les+Amoureux+des+Bancs+Publics+-+Ang%C3%A8le.mp3",
-    image: "https://i1.sndcdn.com/avatars-000152293061-b50xue-t500x500.jpg",
+    image: Blendrap,
   },
 
   {
@@ -76,7 +89,7 @@ export const artists = [
     url: "https://soundcloud.com/pineapplek7",
     sound:
       "https://dl11.debrid.link/dl/1enc4a8dbf3687e15555a643db6c4c418ca9e793e6cb/French+Touch+2001.mp3",
-    image: "https://i1.sndcdn.com/avatars-000340534953-xf8o2c-t500x500.jpg",
+    image: Pineapple,
   },
 
   {
@@ -86,7 +99,7 @@ export const artists = [
     url: "https://soundcloud.com/gillesetmaurice",
     sound:
       "https://dl11.debrid.link/dl/1enc4abd1c340a12460beaeec36a46fa690f94d6d0d7/Sigma+Fay+-+Tonight+%28Ha+Why+Edit%29.mp3",
-    image: "	https://i1.sndcdn.com/avatars-000001768843-n5vjce-t500x500.jpg",
+    image: GillesMaurice,
   },
 
   {
@@ -96,7 +109,7 @@ export const artists = [
     url: "https://soundcloud.com/wardofficiel",
     sound:
       "https://dl11.debrid.link/dl/1encc5b59a40f34909f543b62dbb1a732b7c91404527/Digital+Love+-+Daft+Punk+%28Ward+Rmx%29.mp3",
-    image: "https://i1.sndcdn.com/avatars-dYyB1hHRmqsT015I-lp6sFA-t500x500.jpg",
+    image: Ward,
   },
 
   {
@@ -106,7 +119,7 @@ export const artists = [
     url: "https://soundcloud.com/pop-in-djerba",
     sound:
       "https://dl11.debrid.link/dl/1encdc9e421c761c0f1ed0da02d7fc097a4296fca283/Nawel+den+den+city.mp3",
-    image: "https://i1.sndcdn.com/avatars-000016241415-8iasgm-t500x500.jpg",
+    image: PopInDjerba,
   },
 
   {
@@ -116,7 +129,7 @@ export const artists = [
     url: "https://soundcloud.com/vivienlalu",
     sound:
       "https://dl11.debrid.link/dl/1enc305c4c740358291a9f9f380d3317b66c4d207ee2/Celestial+Spheres+Demo.mp3",
-    image: "https://i1.sndcdn.com/avatars-pWzz7bu2pkh4JQuk-u5yUkw-t500x500.jpg",
+    image: VivienLalu,
   },
 
   {
@@ -126,7 +139,7 @@ export const artists = [
     url: "https://soundcloud.com/metal-ninja",
     sound:
       "https://dl11.debrid.link/dl/1enccf046c82e7fa80841d314d262aa2fa87e991e7b1/Craft+Chase.mp3",
-    image: "https://i1.sndcdn.com/avatars-000001668199-uurnyl-t500x500.jpg",
+    image: MetalNinja,
   },
 
   {
@@ -136,7 +149,7 @@ export const artists = [
     url: "https://soundcloud.com/gargantuametal",
     sound:
       "https://dl11.debrid.link/dl/1enc5f592203fcaabec51aaacceb2dfcd7744298b28c/Threshold+of+Death+Part+I+%3A+Gutters.mp3",
-    image: "https://i1.sndcdn.com/avatars-000115487097-p9s2zm-t500x500.jpg",
+    image: GargantuaMetal,
   },
 
   {
@@ -146,7 +159,7 @@ export const artists = [
     url: "https://soundcloud.com/neometal-1",
     sound:
       "https://dl11.debrid.link/dl/1encfaa401045873d12b7c6ee8b34b0e88f5f0fec770/NeoSkream+-+Back+In+Black.mp3",
-    image: "https://i1.sndcdn.com/avatars-000047383033-8z9wl2-t500x500.jpg",
+    image: NeoMetal,
   },
 
   {
@@ -216,7 +229,7 @@ export const artists = [
     url: "https://soundcloud.com/sayag-jazz-machine",
     sound:
       "https://dl11.debrid.link/dl/1enc54a1a0a6616ecf31cdc966bb96dfa745cb03831e/Noskool.mp3",
-    images: "	https://i1.sndcdn.com/avatars-000001939803-ewh1fu-t500x500.jpg",
+    image: "	https://i1.sndcdn.com/avatars-000001939803-ewh1fu-t500x500.jpg",
   },
 
   {
@@ -325,8 +338,7 @@ export const artists = [
     url: "https://soundcloud.com/nylsie",
     sound:
       "https://dl11.debrid.link/dl/1encdcada5874f685cba02302846a6ba202d0dc52c5c/NELLA+S+-+MON+LOUP%28+Radio+Edit+%29.mp3",
-    images:
-      "https://i1.sndcdn.com/avatars-uRjKFaGpz1vx1zal-NRIulw-t500x500.jpg",
+    image: "https://i1.sndcdn.com/avatars-uRjKFaGpz1vx1zal-NRIulw-t500x500.jpg",
   },
 
   {
@@ -336,7 +348,7 @@ export const artists = [
     url: "https://soundcloud.com/fenoflow",
     sound:
       "https://dl11.debrid.link/dl/1enc239dc131c9040f5c4cb3cb26ce9022b0ca236eb4/VENGABOYS+feat+FENOFLOW+%28Hugh+Graham+Bootleg%29.mp3",
-    images: "https://i1.sndcdn.com/avatars-000306287342-vp1djy-t500x500.jpg",
+    image: "https://i1.sndcdn.com/avatars-000306287342-vp1djy-t500x500.jpg",
   },
 
   {
