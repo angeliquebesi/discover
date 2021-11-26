@@ -15,9 +15,11 @@ body {
   color: whitesmoke;
 }
 .cube .container-nav .nav-logo {
-  filter: invert(100%);
+  filter: invert(1);
 }
 .cube .container-nav .nav-item {
   padding-right: 20%;
+  display: flex;
   color: whitesmoke;
+  font-size: 24px;
 }

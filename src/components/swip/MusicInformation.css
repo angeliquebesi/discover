@@ -1,9 +1,11 @@
-h2, h4{
+.infoContainer h2, h4{
   text-align: left;
-  color: #ffffff;
+  color:rgba(88, 87, 87, 0.726);
   padding-left: 1rem;
 }
 .infoContainer {
   width: 75vw;
   align-self: center;
+  position: absolute;
+  margin-top: calc(100vh - 250px);
 }
