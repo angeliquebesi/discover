@@ -1,0 +1,113 @@
+.container-contact{
+    height: 100vh;
+    width: 100vw;
+   background-color: black;
+  }
+  
+  .container-form{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 2%;
+  }
+  
+  .container-form label{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+  }
+   .container-form input {
+    height: 4vh;
+    border-radius: 20Px;
+    border: 1px solid white;
+    margin-top: 2%;
+    background-color: black;
+    padding-left: 4%;
+  
+  }
+  
+  .item-title-contact{
+    width: 100vw;
+    height: auto;
+   text-align: center;
+   font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+  .début-h1{
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+  
+  }
+  .container-contact .nav-logo{
+    filter: invert(1);
+  
+  }
+  
+  .btn-envoyer-contact{
+    background-color: white;
+    color: black;
+    border: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border-radius: 20Px;
+    height: 5vh;
+    width: 30vw;
+    margin-top: 5%;
+  }
+  
+  .container-btn-envoyer-contact{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .alert_open{
+    position: absolute;
+    top:50%;
+    left: 3%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80vw;
+    height:15vw;
+    background-color: black;
+    z-index: 30;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+    padding:20px;
+  }
+
+  .alert_close{
+    display:none;
+  }
+
+  .btn-close{
+
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      font-size: 24px;
+      padding-right: 20px;
+      background-color: transparent;
+      border :none;
+      color: white;
+      cursor: pointer;
+      padding-bottom: 5px;
+      
+
+  }
