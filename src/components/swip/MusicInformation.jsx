@@ -5,7 +5,7 @@ import "./MusicInformation.css";
 
 function MusicInformation() {
   return (
-    <div>
+    <div className="infoContainer">
       <h2>Artiste</h2>
       <h4>Titre</h4>
       <div>
