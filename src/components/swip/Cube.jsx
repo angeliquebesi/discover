@@ -32,6 +32,7 @@ const SwipCube = () => {
           width: "100vw",
         }}
       >
+        {console.log(artistList[2])}
         <Cube
           index={index}
           onChange={(i) => setIndex(i)}
@@ -51,10 +52,11 @@ const SwipCube = () => {
                 paddingBottom: "3rem",
               }}
             >
-              <MusicInformation
-                name={artistList[index].artist}
-                titreUrl={artistList[index].sound}
-              />
+              {artistList.length > 0 ? (
+                <MusicInformation artist={artistList[index]} />
+              ) : (
+                ""
+              )}
             </div>
           )}
         />

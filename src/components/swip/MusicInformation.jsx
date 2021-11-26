@@ -3,14 +3,14 @@ import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import "./MusicInformation.css";
 
-function MusicInformation({ name, titreUrl }) {
+function MusicInformation({ artist }) {
   return (
     <div className="infoContainer">
-      <h2>{name}</h2>
+      <h2>{artist.artist}</h2>
       <h4>Titre</h4>
       <div>
         <AudioPlayer
-          src={titreUrl}
+          src={artist.sound}
           style={{
             backgroundColor: "transparent",
           }}
