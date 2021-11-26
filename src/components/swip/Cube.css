@@ -8,3 +8,16 @@ body {
   background: white;
   overflow: hidden;
 }
+.cube .container-nav {
+  position: absolute;
+  width: 100vw;
+  z-index: 20;
+  color: whitesmoke;
+}
+.cube .container-nav .nav-logo {
+  filter: invert(25%);
+}
+.cube .container-nav .nav-item {
+  padding-right: 20%;
+  color: rgba(88, 87, 87, 0.726);
+}
