@@ -9,14 +9,14 @@ import classic from "../assets/classic.jpg";
 import electro from "../assets/electro.jpg";
 
 export const genres = [
-  { id: 1, name: "rap", url: rap },
-  { id: 2, name: "pop", url: pop },
-  { id: 3, name: "metal", url: metal },
-  { id: 4, name: "rock", url: rock },
-  { id: 5, name: "jazz", url: jazz },
-  { id: 6, name: "reggae", url: reggae },
-  { id: 7, name: "classic", url: classic },
-  { id: 8, name: "electro", url: electro },
+  { id: 1, name: "Rap", url: rap },
+  { id: 2, name: "Pop", url: pop },
+  { id: 3, name: "Metal", url: metal },
+  { id: 4, name: "Rock", url: rock },
+  { id: 5, name: "Jazz", url: jazz },
+  { id: 6, name: "Reggae", url: reggae },
+  { id: 7, name: "Classic", url: classic },
+  { id: 8, name: "Electro", url: electro },
 ];
 
 export const artists = [

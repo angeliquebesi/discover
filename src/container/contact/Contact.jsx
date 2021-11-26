@@ -81,7 +81,7 @@ export default function Contact() {
           >
             x
           </button>
-          <h3>Ta chanson a bien été envoyé</h3>
+          <h3>Ta chanson a bien été envoyée</h3>
         </div>
       </form>
     </div>
