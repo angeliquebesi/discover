@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "rap",
+    "url": "../assets/rap.jpg"
+  },
+  {
+    "id": 2,
+    "name": "pop",
+    "url": "../assets/pop.jpg"
+  },
+  {
+    "id": 3,
+    "name": "metal",
+    "url": "../assets/metal.jpg"
+  },
+  {
+    "id": 4,
+    "name": "rock",
+    "url": "../assets/rock.jpg"
+  },
+  {
+    "id": 5,
+    "name": "jazz",
+    "url": "../assets/jazz.jpg"
+  },
+  {
+    "id": 6,
+    "name": "reggae",
+    "url": "../assets/reggae.jpg"
+  },
+  {
+    "id": 7,
+    "name": "classic",
+    "url": "../assets/classic.jpg"
+  },
+  {
+    "id": 8,
+    "name": "electro",
+    "url": "../assets/electro.jpg"
+  }
+]

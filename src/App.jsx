@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-// import NavBar from "./components/navbar/NavBar";
 import Home from "./container/home/Home";
 import Genre from "./container/genre/Genre";
 import Contact from "./container/contact/Contact";
@@ -13,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route exact path="/genre" element={<Genre />} />
-        <Route exact path="/genre/:id" element={<SwipCube />} />
+        <Route path="/genre/:id" element={<SwipCube />} />
         <Route exact path="/artiste" element={<Contact />} />
       </Routes>
     </div>
