@@ -12,7 +12,10 @@
   justify-content: space-between;
   align-items: center;
   width: 90vw;
+  gap : 100px;
 }
+
+.inner { position: relative; height: auto; }
 
 .categorie{
   height: 35vw;
@@ -20,7 +23,7 @@
   box-sizing: content-box;
   overflow: hidden;
   border-radius:50px;
-  margin: 0 auto;
+  margin: 10% auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +41,7 @@
   -o-filter: grayscale(100%);
 }
 
-.categorie h2 {
+.container-categories .categorie h2 {
   position: absolute;
   z-index: 50;
 }

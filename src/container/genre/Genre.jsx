@@ -13,14 +13,16 @@ export default function Genre() {
       <Background />
       <NavBar />
       <div className="container-categories">
-        {genres.map((genre) => (
-          <Fade top cascade>
-            <div className="categorie">
-              <img src={genre.url} alt="" />
-              <h2>{genre.name}</h2>
-            </div>
-          </Fade>
-        ))}
+        <div className="inner">
+          {genres.map((genre) => (
+            <Fade top cascade>
+              <div className="categorie">
+                <img src={genre.url} alt="" />
+                <h2>{genre.name}</h2>
+              </div>
+            </Fade>
+          ))}
+        </div>
       </div>
       <img src={Grain} alt="grain" className="texture-grain" />
     </div>
