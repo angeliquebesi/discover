@@ -3,61 +3,43 @@
   height: 100vh;
   overflow: scroll;
 }
+
+.container-categories{
+  height: 150vh;
+  display: flex;
+  margin : 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+}
+
 .categorie{
-  border-radius:50px;
   height: 35vw;
   width: 90vw;
-  background-size: cover;
+  box-sizing: content-box;
+  overflow: hidden;
+  border-radius:50px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.categorie img {
+  width: 90vw;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
-  font-family: 'Open Sans', sans-serif;
 }
 
-.rap{
-  background-image: url('../../assets/rap.jpg');
-  margin-bottom: 10%;
+.categorie h2 {
+  position: absolute;
+  z-index: 50;
 }
 
-.pop {
-  background-image: url('../../assets/pop.jpg');
-  margin-bottom: 10%;
-}
-
-.metal{
-  background-image: url('../../assets/metal.jpg');
-  margin-bottom: 10%;
-}
-
-.rock{
-  background-image: url('../../assets/rock.jpg');
-  margin-bottom: 10%;
-}
-
-.jazz{
-  background-image: url('../../assets/jazz.jpg');
-  margin-bottom: 10%;
-}
-
-.reggae{
-  background-image: url('../../assets/reggae.jpg');
-  margin-bottom: 10%;
-}
-
-.classic{
-  background-image: url('../../assets/classic.jpg');
-  margin-bottom: 10%;
-}
-
-.electro{
-  background-image: url('../../assets/electro.jpg');
-  margin-bottom: 10%;
-}
