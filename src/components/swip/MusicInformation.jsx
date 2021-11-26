@@ -10,6 +10,7 @@ function MusicInformation({ artist }) {
       <h4>Titre</h4>
       <div>
         <AudioPlayer
+          key={artist.id}
           src={artist.sound}
           style={{
             backgroundColor: "transparent",
